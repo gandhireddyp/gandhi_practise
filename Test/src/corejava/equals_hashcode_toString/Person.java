@@ -102,7 +102,7 @@ public class Person {
         // After casting the object, compare the numeric attributes first.
         // Because comparing numeric attributes is fast
         if (other.getId() != Id) {
-            return true;
+            return false;
         }
 
         if (name == null) {
